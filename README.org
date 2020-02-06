@@ -1,0 +1,45 @@
+*WORK IN PROGRESS*
+
+* meta-cookiecutter cookiecutter template
+
+Cookiecutters are nice for when you want to generate a lot of similar
+projects, however developing cookiecutters is kind a PITA.
+
+I have multiple cookiecutter projects and I wanted to reduce the
+duplication of developer tools between them since they are basically
+the same.
+
+This includes automation for:
+
+- setting up and specifying developer environments
+- running tests
+- simple documentation and installation instructions
+
+** Installation
+
+There is no specific package to install just make sure you have
+cookiecutter installed, roughly:
+
+#+begin_src bash
+pip install cookiecutter
+#+end_src
+
+Although I do recommend the excellent ~pipx~ tool which does
+standalone encapsulated executables of python tools:
+
+#+begin_src bash
+pipx install cookiecutter
+#+end_src
+
+Then you can just make repos from the template:
+
+#+begin_src bash
+cookiecutter https://github.com/salotz/meta-cookiecutter.git
+#+end_src
+
+Where you will be prompted for details.
+
+** Usage
+
+Since this is a meta cookiecutter you will also have options for the
+defaults of your generated cookiecutter.

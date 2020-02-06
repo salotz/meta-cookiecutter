@@ -1,0 +1,15 @@
+{
+    "project_name" : "{{ cookiecutter.default_project_name }}",
+    "project_slug" : "{{ cookiecutter.default_project_slug }}",
+    "project_description" : "{{ cookiecutter.default_project_description }}",
+    "initial_version" : "{{ cookiecutter.default_initial_version }}",
+    "copyright" : "{{ cookiecutter.default_copyright }}",
+    "license" : "{{ cookiecutter.default_license }}",
+    "owner_name" : "{{ cookiecutter.default_owner_name }}",
+    "owner_email" : "{{ cookiecutter.default_owner_email }}",
+    "owner_nickname" : "{{ cookiecutter.default_owner_nickname }}",
+    "url" : "{{ cookiecutter.default_url }}",
+    "dev_url" : "{{ cookiecutter.default_dev_url }}",
+    "doc_url" : "{{ cookiecutter.default_doc_url }}",
+    "dist_url" : "{{ cookiecutter.default_dist_url }}"
+}

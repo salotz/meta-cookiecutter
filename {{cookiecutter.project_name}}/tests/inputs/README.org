@@ -1,0 +1,9 @@
+* Test inputs
+
+These are test input JSON files that can be used to test your project
+that aren't the defaults.
+
+** Test Explanations
+
+- basic :: a very simple test that is similar to the defaults, just
+  for sanity
