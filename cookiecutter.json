@@ -24,5 +24,8 @@
     "default_url" : "https://github.com/{{cookiecutter.default_owner_nickname}}/{{cookiecutter.default_project_slug}}",
     "default_dev_url" : "https://github.com/{{cookiecutter.default_owner_nickname}}/{{cookiecutter.default_project_slug}}",
     "default_doc_url" : "https://{{cookiecutter.default_owner_nickname}}.github.io/{{cookiecutter.default_project_slug}}",
-    "default_dist_url" : "https://github.com/{{cookiecutter.default_owner_nickname}}/{{cookiecutter.default_project_slug}}/releases/download/"
+    "default_dist_url" : "https://github.com/{{cookiecutter.default_owner_nickname}}/{{cookiecutter.default_project_slug}}/releases/download/",
+    "_copy_without_render" : [
+        "{{cookiecutter.project_slug}}"
+    ]
 }

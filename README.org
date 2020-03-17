@@ -31,15 +31,37 @@ standalone encapsulated executables of python tools:
 pipx install cookiecutter
 #+end_src
 
+
+** Usage
+
+Since this is a meta cookiecutter you will also have options for the
+defaults of your generated cookiecutter.
+
 Then you can just make repos from the template:
 
 #+begin_src bash
 cookiecutter https://github.com/salotz/meta-cookiecutter.git
 #+end_src
 
+or:
+
+#+BEGIN_SRC bash
+cookiecutter gh:salotz/meta-cookiecutter
+#+END_SRC
+
 Where you will be prompted for details.
 
-** Usage
+# TODO explain how to generate a cookiecutter template
 
-Since this is a meta cookiecutter you will also have options for the
-defaults of your generated cookiecutter.
+After generating the template you can go into the repo and install the
+~jubeo~ tooling:
+
+#+BEGIN_SRC bash
+jubeo init --upstream git+https://github.com/salotz/meta-cookiecutter.git#jubeo
+#+END_SRC
+
+Should be able to see end points:
+
+#+BEGIN_SRC bash
+inv -l
+#+END_SRC
